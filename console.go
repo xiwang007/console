@@ -5,6 +5,8 @@ import (
 	"time"
 )
 
+const Version = 1.0
+
 // 打印日志
 func Log(args ...interface{}) {
 	var newArgs []interface{} = make([]interface{}, 0)
